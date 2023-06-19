@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGO_URL).then(()=>{
 
 app.use(
     cors({
-      origin: ["http://localhost:3000"],credentials:true
+      origin: ["http://localhost:3000","https://3z5msq-3000.csb.app"],credentials:true
     })
   ); 
 app.use(express.json())
